@@ -1,5 +1,8 @@
-// Hero.js
-export default function Hero() {
+import React from "react";
+import mo from '../../assets/mo.jpg'
+
+
+function Hero() {
 	return (
 	<section
 		id="hero"
@@ -12,19 +15,20 @@ export default function Hero() {
 				Hi and welcome to
 			</h4>
 			<h2 className="text-center text-emerald-500 text-5xl font-bold">
-			My Portfolio Website
+			    My Portfolio Website
 			</h2>
 		</div>
-		<p className="text-center">
-			I am your friendly neighbourhood osm developer...
-		</p>
+            <p className="text-center">
+                I am a front end front end software developer...
+            </p>
 		</div>
-		{/* <div className="flex-1">
-		<img src=
-"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
-			alt="Hello.svg"
-			className="w-full h-full bg-cover"/>
-		</div> */}
+		<div className="flex-1">
+            <img src={mo}
+                alt="mo.svg"
+                className="w-full h-full bg-cover"/>
+		</div>
 	</section>
 	);
 }
+
+export default Hero;
