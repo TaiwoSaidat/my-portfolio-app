@@ -1,4 +1,7 @@
-// About.js
+import React from 'react';
+import taiwo from '../../assets/taiwo.png';
+
+
 export default function About() {
 	return (
 		<section
@@ -6,10 +9,9 @@ export default function About() {
 			className="px-10 w-full flex flex-col lg:flex-row py-20 
 					align-center bg-emerald-200 max-w-5xl mx-auto">
 			<div className="flex-1">
-				<img src=
-"https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"
-					alt="About"
-					className="w-full h-full bg-cover"/>
+				<img src={taiwo}
+					alt="taiwo"
+					className="w-96 h-full bg-cover"/>
 			</div>
 			<div className="flex-1 flex flex-col justify-center
 							items-center gap-5 px-6">
@@ -19,15 +21,16 @@ export default function About() {
 						About Me :
 					</h2>
 				</div>
-				<p>
+				<p className=' font-semibold' >
 					As I said, I am a front end developer...
 				</p>
-				<p>
-					I am a passionate self taught developer
-					(which is quite a subjective thing as i learnt from
-					teachers on youtube so does that really counts?
-					idk). I am having an experience of about 4 years
-					and had a deep understanding of creating web products.
+				<p> 
+                    ... with a passion for creating clean,
+                    efficient code that meets user needs. I thrive on turning design 
+                    concepts into interactive, beautiful websites. I'm excited about 
+                    the power of web technology to connect people and create meaningful 
+                    experiences.  I'm constantly learning and looking for
+                    new ways to push the boundaries of what's possible.
 				</p>
 			</div>
 		</section>
