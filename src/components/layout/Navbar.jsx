@@ -1,5 +1,6 @@
+import React from "react";
 
-export default function Navbar() {
+function Navbar() {
 	return (
 		<nav className="w-full px-5 sm:px-10 py-5 shadow-xl 
 						backdrop-blur-lg fixed top-0 z-10">
@@ -47,3 +48,5 @@ export default function Navbar() {
 		</nav>
 	);
 }
+
+export default Navbar;

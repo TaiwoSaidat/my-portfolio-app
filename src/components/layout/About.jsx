@@ -2,16 +2,16 @@ import React from 'react';
 import taiwo from '../../assets/taiwo.png';
 
 
-export default function About() {
+function About() {
 	return (
 		<section
 			id="about"
 			className="px-10 w-full flex flex-col lg:flex-row py-20 
 					align-center bg-emerald-200 max-w-5xl mx-auto">
-			<div className="flex-1">
+			<div className="flex-1 mb-6 ">
 				<img src={taiwo}
 					alt="taiwo"
-					className="w-96 h-full bg-cover"/>
+					className="w-full h-full bg-cover border-solid border-4 border-emerald-200 rounded-full"/>
 			</div>
 			<div className="flex-1 flex flex-col justify-center
 							items-center gap-5 px-6">
@@ -36,3 +36,5 @@ export default function About() {
 		</section>
 	);
 }
+
+export default About;
