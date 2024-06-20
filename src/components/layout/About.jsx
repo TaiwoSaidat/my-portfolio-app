@@ -14,7 +14,7 @@ function About() {
 					className="w-96 h-96 justify-center bg-cover border-solid border-4 border-emerald-200 rounded-full"/>
 			</div>
 			{/* text div */}
-			<div className="flex-1 flex flex-col place-self-center items-center gap-5 px-6">
+			<div className="flex-1 flex flex-col justify-items-center items-center gap-5 px-6">
 				<div>
 					<h2 className="text-center text-emerald-500 text-5xl font-bold">
 						About Me :
