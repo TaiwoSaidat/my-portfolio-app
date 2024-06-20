@@ -7,12 +7,14 @@ function About() {
 		<section
 			id="about"
 			className="px-10 w-full flex flex-col lg:flex-row py-20 align-center bg-emerald-200 max-w-5xl mx-auto">
+			{/* image div */}
 			<div className="flex-1 mb-6 ">
 				<img src={taiwo}
 					alt="taiwo"
-					className="w-full h-full bg-cover border-solid border-4 border-emerald-200 rounded-full"/>
+					className="w-96 h-96 justify-center bg-cover border-solid border-4 border-emerald-200 rounded-full"/>
 			</div>
-			<div className="flex-1 flex flex-col justify-center items-center gap-5 px-6">
+			{/* text div */}
+			<div className="flex-1 flex flex-col place-self-center items-center gap-5 px-6">
 				<div>
 					<h2 className="text-center text-emerald-500 text-5xl font-bold">
 						About Me :
