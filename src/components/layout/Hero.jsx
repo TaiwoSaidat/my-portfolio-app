@@ -1,13 +1,12 @@
 import React from "react";
-import mo from '../../assets/mo.jpg'
+import code from '../../assets/code.jpg'
 
 
 function Hero() {
 	return (
 	<section
 		id="hero"
-		className="px-10 w-full flex gap-12 flex-col lg:flex-row 
-				justify-center items-center align-center mt-40 
+		className="px-10 w-full flex gap-12 flex-col lg:flex-row justify-center items-center align-center mt-40 
 				mb-16 lg:mt-10 max-w-5xl mx-auto lg:gap-0 h-[80vh]">
 		<div className="flex-1 flex flex-col justify-center items-center gap-5">
 		<div>
@@ -23,9 +22,9 @@ function Hero() {
             </p>
 		</div>
 		<div className="flex-1">
-            <img src={mo}
-                alt="mo.svg"
-                className="w-full h-full bg-cover"/>
+            <img src={code}
+            alt="code.svg"
+            className="w-full h-96 bg-cover"/>
 		</div>
 	</section>
 	);
