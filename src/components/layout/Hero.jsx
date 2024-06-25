@@ -14,7 +14,7 @@ function Hero() {
 				<h4 className="text-center text-xl font-bold">
 					Hi and welcome to
 				</h4>
-				<h2 className="text-center text-emerald-500 text-5xl font-bold">
+				<h2 className="text-center text-[#a8dadc] text-5xl font-bold">
 					My Portfolio Website
 				</h2>
 			</div>

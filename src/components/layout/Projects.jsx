@@ -5,9 +5,9 @@ function Projects() {
 	return (
 		<section id="projects" className="my-20 w-full flex flex-col gap-5 align-center max-w-5xl mx-auto">
 			{/* heading title */}
-			<h2 className="text-5xl text-emerald-500 font-bold text-center">My Projects</h2>
+			<h2 className="text-5xl text-[#a8dadc] font-bold text-center">My Projects</h2>
 			{/* project 1 */}
-			<div className="p-10 bg-emerald-200 flex flex-col justify-center items-center gap-5 lg:flex-row 
+			<div className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full">
 				{/* image */}
 				<div className="w-80 rounded">

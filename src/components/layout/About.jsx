@@ -6,17 +6,17 @@ function About() {
 	return (
 		<section
 			id="about"
-			className="px-10 w-full flex flex-col lg:flex-row py-20 align-center items-center justify-center bg-emerald-200 max-w-5xl mx-auto">
+			className="px-10 w-full flex flex-col lg:flex-row py-20 align-center items-center justify-center bg-[#a8dadc] max-w-5xl mx-auto">
 			{/* image div */}
 			<div className="flex-1 mb-6 ">
 				<img src={taiwo}
 					alt="taiwo"
-					className="w-full h-96 bg-cover border-solid border-4 border-emerald-200 "/>
+					className="w-96 h-96 bg-cover border rounded-3xl"/>
 			</div>
 			{/* text div */}
 			<div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96">
 				<div>
-					<h2 className="text-center text-emerald-600 text-5xl font-bold">
+					<h2 className="text-center text-[#457b9d] text-5xl font-bold">
 						About Me :
 					</h2>
 				</div>
