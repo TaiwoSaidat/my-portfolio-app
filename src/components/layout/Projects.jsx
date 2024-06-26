@@ -1,5 +1,6 @@
 import React from 'react';
 import quizApp from '../../assets/quiz_app.png'
+import fireBaseSignUp from '../../assets/fire.png'
 
 function Projects() {
 	return (
@@ -27,7 +28,35 @@ function Projects() {
 						</a>
 					</h2>
 					<p>
-						This is a project built on react. It is a quiz application.
+						This is a quiz application that shows questions and give a score at the end of 
+						the quiz. It is built using React JS, HTML and CSS.
+					</p>
+				</div>
+			</div>
+
+			{/* project 2 */}
+			<div className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full">
+				{/* image */}
+				<div className="w-80 rounded">
+					<a href="https://login-signup-firebase-seven.vercel.app/"
+						className="w-full h-full">
+						<img src={fireBaseSignUp}
+						alt="Project 2"
+						className="w-full h-full bg-cover rounded"/>
+					</a>
+				</div>
+				{/* text */}
+				<div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+					<h2 className="font-bold text-3xl text-center">
+						<a className="hover:underline"
+							href="https://login-signup-firebase-seven.vercel.app/">
+							Signup / Login Application
+						</a>
+					</h2>
+					<p>
+						This is a signup/login app using google firebase authentication for web applications. It 
+						is built using React JS, HTML, Tailwind and CSS.
 					</p>
 				</div>
 			</div>
