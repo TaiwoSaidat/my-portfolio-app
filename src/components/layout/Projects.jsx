@@ -31,7 +31,8 @@ function Projects() {
 					</h2>
 					<p>
 						This is a react app that connect small business beauty technicians to customers. it was built with react.js and Tailwind.
-						I am in collaboration with 2 other front end developers to build this app. It is still in progress.
+						This project is the collaborative work of a full team, including designers, back end developers, other front end developers
+						 and project manager. It is still in progress. 
 					</p>
 				</div>
 			</div>
