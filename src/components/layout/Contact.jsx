@@ -3,6 +3,7 @@ import github from '../../assets/github.svg'
 import linkedin from '../../assets/linkedin.svg'
 import email from '../../assets/email.svg'
 import whatsapp from '../../assets/whatsapp.svg'
+import vercel from '../../assets/vercel.svg'
 
 function Contact() {
 	return (
@@ -11,7 +12,7 @@ function Contact() {
 			{/* heading text */}
 			<h2 className="text-5xl font-bold text-[#a8dadc] text-center my-5">Contact</h2>
 
-			<h4 className="text-2xl font-bold text-[#a8dadc] text-center">Check me out</h4>
+			{/* <h4 className="text-2xl font-bold text-[#a8dadc] text-center">Check me out</h4> */}
 
 			{/* contacts */}
 			<div className="flex gap-5 justify-center my-10">
@@ -35,6 +36,16 @@ function Contact() {
 						<img src={linkedin} alt="linkedin link"  />
 					</a>
 				</div>
+
+				{/* vercel */}
+				{/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg " >
+					<a rel="noreferrer"
+						target="_blank"
+						className=" "
+						href="https://vercel.com/taiwosaidats-projects">
+						<img src={vercel} alt="vercel link"  />
+					</a>
+				</div> */}
 
 				{/* email */}
 				<div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg  ">

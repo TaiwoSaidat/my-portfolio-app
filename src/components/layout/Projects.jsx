@@ -2,12 +2,40 @@ import React from 'react';
 import quizApp from '../../assets/quiz_app.png'
 import fireBaseSignUp from '../../assets/fire.png'
 import reviews from '../../assets/reviews.png'
+import beauty from '../../assets/beautyexpat.png'
 
 function Projects() {
 	return (
 		<section id="projects" className="my-20 w-full flex flex-col gap-5 align-center max-w-5xl mx-auto">
 			{/* heading title */}
 			<h2 className="text-5xl text-[#a8dadc] font-bold text-center">My Projects</h2>
+						{/* project 4 */}
+						<div className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full">
+				{/* image */}
+				<div className="w-80 rounded">
+					<a href="https://deploy-preview-41--beautyxpert.netlify.app/"
+						className="w-full h-full">
+						<img src={beauty}
+						alt="Project 2"
+						className="w-full h-full bg-cover rounded"/>
+					</a>
+				</div>
+				{/* text */}
+				<div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+					<h2 className="font-bold text-3xl text-center">
+						<a className="hover:underline"
+							href="https://deploy-preview-41--beautyxpert.netlify.app/">
+							Beauty Expert App
+						</a>
+					</h2>
+					<p>
+						This is a react app that connect small business beauty technicians to customers. it was built with react.js and Tailwind.
+						I am in collaboration with 2 other front end developers to build this app. It is still in progress.
+					</p>
+				</div>
+			</div>
+
 			{/* project 1 */}
 			<div className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full">
@@ -88,6 +116,8 @@ function Projects() {
 					</p>
 				</div>
 			</div>
+
+
 
 			{/* project 2 */}
 			{/* <div className="p-10 bg-emerald-200 flex flex-col justify-center items-center gap-5 lg:flex-row-reverse 
