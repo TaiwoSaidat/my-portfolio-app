@@ -3,6 +3,7 @@ import quizApp from '../../assets/quiz_app.png'
 import fireBaseSignUp from '../../assets/fire.png'
 import reviews from '../../assets/reviews.png'
 import beauty from '../../assets/beautyexpat.png'
+import kiddies from '../../assets/kiddiesAuto.png'
 
 function Projects() {
 	return (
@@ -114,6 +115,31 @@ function Projects() {
 					<p>
 						This is a review app using react. It 
 						is built using React JS, HTML, Tailwind and CSS.
+					</p>
+				</div>
+			</div>
+			{/* project 4 */}
+			<div className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full">
+				{/* image */}
+				<div className="w-80 rounded">
+					<a href="https://kiddies-auto-web-app.vercel.app/"
+						className="w-full h-full">
+						<img src={kiddies}
+						alt="Project 2"
+						className="w-full h-full bg-cover rounded"/>
+					</a>
+				</div>
+				{/* text */}
+				<div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+					<h2 className="font-bold text-3xl text-center">
+						<a className="hover:underline"
+							href="https://kiddies-auto-web-app.vercel.app/">
+							Kiddies Auto Web
+						</a>
+					</h2>
+					<p>
+						This is an ecommerce store built using React JS, HTML, Tailwind and CSS. It is still in progress
 					</p>
 				</div>
 			</div>
