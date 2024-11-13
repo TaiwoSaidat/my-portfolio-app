@@ -19,7 +19,7 @@ function Hero() {
 				</h2>
 			</div>
 				<p className="text-center">
-					I am a front end front end software developer...
+					i am a Front End Engineer...
 				</p>
 		</div>
 

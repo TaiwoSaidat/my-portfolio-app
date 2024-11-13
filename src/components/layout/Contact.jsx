@@ -48,16 +48,16 @@ function Contact() {
 				</div> */}
 
 				{/* email */}
-				<div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg  ">
+				{/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg  ">
 					<a rel="noreferrer"
 						target="_blank"
 						className=" "
 						href=" ">
-						<img src={email} alt="linkedin link"  />
+						<img src={email} alt="email link"  />
 					</a>
-				</div>
+				</div> */}
 
-				{/* Whatsapp */}
+				{/* Whatsapp
 				<div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg ">
 					<a rel="noreferrer"
 						target="_blank"
@@ -65,7 +65,7 @@ function Contact() {
 						href="">
 						<img src={whatsapp} alt="whatsapp link"  />
 					</a>
-				</div>
+				</div> */}
 
 			
 			</div>
