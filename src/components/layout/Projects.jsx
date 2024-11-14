@@ -28,10 +28,7 @@ function Projects() {
       >
         {/* image */}
         <div className="w-80 rounded">
-          <a
-            href="https://deploy-preview-41--beautyxpert.netlify.app/"
-            className="w-full h-full"
-          >
+          <a href="https://beautyxpert.netlify.app/" className="w-full h-full">
             <img
               src={beauty}
               alt="Project 2"
@@ -59,7 +56,6 @@ function Projects() {
           </p>
         </div>
       </div>
-
       {/* project 2 quiz app */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
@@ -95,7 +91,6 @@ function Projects() {
           </p>
         </div>
       </div>
-
       {/* project 3 kiddies auto */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
@@ -130,7 +125,6 @@ function Projects() {
           </p>
         </div>
       </div>
-
       {/* project 4 firebase login/ signup */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
@@ -166,7 +160,6 @@ function Projects() {
           </p>
         </div>
       </div>
-
       {/* project 5 feed back app */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
@@ -201,11 +194,46 @@ function Projects() {
           </p>
         </div>
       </div>
-<br /> <hr /> <br />
+      <br /> <hr /> <br />
       <h6 className="text-3xl text-[#a8dadc] font-bold text-center">
         Web Apps
       </h6>
-      {/* project 6 */}
+      {/* project 6 pixel pioneers digital app */}
+      <div
+        className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
+      >
+        {/* image */}
+        <div className="w-80 rounded">
+          <a
+            href="https://products-landing-page-six.vercel.app/"
+            className="w-full h-full"
+          >
+            <img
+              src={trombone}
+              alt="Project 2"
+              className="w-full h-full bg-cover rounded"
+            />
+          </a>
+        </div>
+        {/* text */}
+        <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+          <h2 className="font-bold text-3xl text-center">
+            <a
+              className="hover:underline"
+              href="https://products-landing-page-six.vercel.app/"
+            >
+              Products Landing Page
+            </a>
+          </h2>
+          <p>
+            This is a a multipage website that consumes api and displays
+            products from the api including filteration throught categories
+            built using html, css, fetch API and javascript and
+          </p>
+        </div>
+      </div>
+      {/* project 7 tribute page */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
@@ -236,8 +264,7 @@ function Projects() {
           <p>This is a tribute built using html and css</p>
         </div>
       </div>
-
-      {/* project 7 products/ music intrument landing page */}
+      {/* project 8 products/ music instrument landing page */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
@@ -265,10 +292,12 @@ function Projects() {
               Products Landing Page
             </a>
           </h2>
-          <p>This is a products landing page built using html and css</p>
+          <p>
+            This is a products landing page for an shop that sells musical
+            instruments built using html and css
+          </p>
         </div>
       </div>
-
       {/* project 2 */}
       {/* <div className="p-10 bg-emerald-200 flex flex-col justify-center items-center gap-5 lg:flex-row-reverse 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"> */}
