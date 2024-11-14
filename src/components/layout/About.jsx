@@ -1,5 +1,5 @@
 import React from "react";
-import taiwo from "../../assets/taiwo3.jpeg";
+import taiwo from "../../assets/taiwo2.png";
 
 function About() {
   return (
