@@ -6,6 +6,7 @@ import beauty from "../../assets/beautyexpat.png";
 import kiddies from "../../assets/kiddiesAuto.png";
 import tribute from "../../assets/tribute.png";
 import trombone from "../../assets/trombone.png";
+import pixelTech from '../../assets/pixelPioneersTech.png'
 
 function Projects() {
   return (
@@ -206,11 +207,11 @@ function Projects() {
         {/* image */}
         <div className="w-80 rounded">
           <a
-            href="https://products-landing-page-six.vercel.app/"
+            href="https://pixel-pioneers-technologies.vercel.app/"
             className="w-full h-full"
           >
             <img
-              src={trombone}
+              src={pixelTech}
               alt="Project 2"
               className="w-full h-full bg-cover rounded"
             />
@@ -221,7 +222,7 @@ function Projects() {
           <h2 className="font-bold text-3xl text-center">
             <a
               className="hover:underline"
-              href="https://products-landing-page-six.vercel.app/"
+              href="https://pixel-pioneers-technologies.vercel.app/"
             >
               Products Landing Page
             </a>
@@ -229,7 +230,7 @@ function Projects() {
           <p>
             This is a a multipage website that consumes api and displays
             products from the api including filteration throught categories
-            built using html, css, fetch API and javascript and
+            built using html, css, fetch API and javascript
           </p>
         </div>
       </div>
