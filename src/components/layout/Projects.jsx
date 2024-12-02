@@ -6,7 +6,7 @@ import beauty from "../../assets/beautyexpat.png";
 import kiddies from "../../assets/kiddiesAuto.png";
 import tribute from "../../assets/tribute.png";
 import trombone from "../../assets/trombone.png";
-import pixelTech from '../../assets/pixelPioneersTech.png'
+import pixelTech from "../../assets/pixelPioneersTech.png";
 
 function Projects() {
   return (
@@ -29,7 +29,11 @@ function Projects() {
       >
         {/* image */}
         <div className="w-80 rounded">
-          <a href="https://beautyxpert.netlify.app/" className="w-full h-full">
+          <a
+            href="https://beautyxpert.netlify.app/"
+            // href="https://deploy-preview-41--beautyxpert.netlify.app/"
+            className="w-full h-full"
+          >
             <img
               src={beauty}
               alt="Project 2"
@@ -43,7 +47,8 @@ function Projects() {
             {/*  hover:text-black */}
             <a
               className="hover:underline"
-              href="https://deploy-preview-41--beautyxpert.netlify.app/"
+              href="https://beautyxpert.netlify.app/"
+              // href="https://deploy-preview-41--beautyxpert.netlify.app/"
             >
               Beauty Expert App
             </a>
