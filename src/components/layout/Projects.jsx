@@ -7,6 +7,7 @@ import kiddies from "../../assets/kiddiesAuto.png";
 import tribute from "../../assets/tribute.png";
 import trombone from "../../assets/trombone.png";
 import pixelTech from "../../assets/pixelPioneersTech.png";
+import wanderlay from '../../assets/wanderlay.png'
 
 function Projects() {
   return (
@@ -204,7 +205,41 @@ function Projects() {
       <h6 className="text-3xl text-[#a8dadc] font-bold text-center">
         Web Apps
       </h6>
-      {/* project 6 pixel pioneers digital app */}
+      {/* project 6 Wanderlay App digital app */}
+      <div
+        className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
+      >
+        {/* image */}
+        <div className="w-80 rounded">
+          <a
+            href="https://wanderlay-travel-app.vercel.app/"
+            className="w-full h-full"
+          >
+            <img
+              src={wanderlay}
+              alt="wanderlay app"
+              className="w-full h-full bg-cover rounded"
+            />
+          </a>
+        </div>
+        {/* text */}
+        <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+          <h2 className="font-bold text-3xl text-center">
+            <a
+              className="hover:underline"
+              href="https://wanderlay-travel-app.vercel.app/"
+            >
+              Wanderlay Web Page
+            </a>
+          </h2>
+          <p>
+            This is the landing page of a travel company's website. it was built using Next and typescript.            
+          </p>
+        </div>
+      </div>
+   
+      {/* project 7 pixel pioneers digital app */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
@@ -217,7 +252,7 @@ function Projects() {
           >
             <img
               src={pixelTech}
-              alt="Project 2"
+              alt="pixel pioneers tech"
               className="w-full h-full bg-cover rounded"
             />
           </a>
@@ -229,17 +264,17 @@ function Projects() {
               className="hover:underline"
               href="https://pixel-pioneers-technologies.vercel.app/"
             >
-              Products Landing Page
+              Products E-Commerce Web App
             </a>
           </h2>
           <p>
-            This is a a multipage website that consumes api and displays
+            This is a multipage website that consumes api and displays
             products from the api including filteration throught categories
             built using html, css, fetch API and javascript
           </p>
         </div>
       </div>
-      {/* project 7 tribute page */}
+      {/* project 8 tribute page */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
@@ -270,7 +305,7 @@ function Projects() {
           <p>This is a tribute built using html and css</p>
         </div>
       </div>
-      {/* project 8 products/ music instrument landing page */}
+      {/* project 9 products/ music instrument landing page */}
       <div
         className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
 				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
