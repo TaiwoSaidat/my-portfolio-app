@@ -1,14 +1,7 @@
+import { skills } from "../../constants";
+
 function Skills() {
-  const skills = [
-    "Next",
-    "React",
-    "Javascript",
-    "Typescript",
-    "REST API",
-    "Tailwind",
-    "HTML",
-    "CSS",
-  ];
+  
   return (
     <section id="skills" className="px-10 w-full my-40 max-w-5xl mx-auto">
       {/* heading */}
