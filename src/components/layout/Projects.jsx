@@ -8,6 +8,7 @@ import tribute from "../../assets/tribute.png";
 import trombone from "../../assets/trombone.png";
 import pixelTech from "../../assets/pixelPioneersTech.png";
 import wanderlay from '../../assets/wanderlay.png'
+import blog from '../../assets/blogpost.png'
 
 function Projects() {
   return (
@@ -95,6 +96,39 @@ function Projects() {
           <p>
             This is a quiz application that shows questions and give a score at
             the end of the quiz. It is built using React JS, HTML and CSS.
+          </p>
+        </div>
+      </div>
+      {/* project 3 blog post */}
+      <div
+        className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
+      >
+        {/* image */}
+        <div className="w-80 rounded">
+          <a
+            href="https://simple-blog-website-eta.vercel.app/"
+            className="w-full h-full"
+          >
+            <img
+              src={blog}
+              alt="Project 3"
+              className="w-full h-full bg-cover rounded"
+            />
+          </a>
+        </div>
+        {/* text */}
+        <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
+          <h2 className="font-bold text-3xl text-center">
+            <a
+              className="hover:underline"
+              href="https://simple-blog-website-eta.vercel.app/"
+            >
+              A Simple Blog Post
+            </a>
+          </h2>
+          <p>
+            This is an blog site built using React JS, Firebase, and Tailwind. You can add, delete, like, dislike and edit posts on this app.
           </p>
         </div>
       </div>
