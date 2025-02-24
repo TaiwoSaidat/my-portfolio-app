@@ -14,7 +14,8 @@ function Skills() {
           return (
             <div
               key={index}
-              className="cursor-pointer px-12 py-10 rounded bg-[#457b9d] text-lg text-[#f1faee] flex items-center justify-center font-bold hover:shadow-xl"
+              className="cursor-pointer px-12 py-10 rounded bg-[#457b9d] text-lg text-[#f1faee] flex items-center justify-center font-bold hover:bg-[#1d3557] shadow transition hover:shadow-xl hover:scale-[102%]
+"
             >
               {/* hover:text-black */}
               {skill}

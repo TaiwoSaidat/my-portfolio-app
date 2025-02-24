@@ -8,6 +8,12 @@ import trombone from "../src/assets/trombone.png";
 import pixelTech from "../src/assets/pixelPioneersTech.png";
 import wanderlay from "../src/assets/wanderlay.png";
 import blog from "../src/assets/blogpost.png";
+import github from '../src/assets/github.svg';
+import ln from "../src/assets/linkedin.svg";
+import email from "../src/assets//email.svg";
+import whatsapp from "../src/assets//whatsapp.svg";
+import vercel from "../src/assets//vercel.svg";
+
 
 export const sites = [
   {
@@ -125,5 +131,51 @@ export const skills = [
   "Tailwind",
   "HTML",
   "CSS",
+];
+
+export const links = [
+  {
+    id: 1,
+    href: "https://github.com/TaiwoSaidat",
+    image: github,
+  },
+  {
+    id: 2,
+    href: "https://www.linkedin.com/in/taiwo-oyewale-5554791a6/",
+    image: ln,
+  },
+  {
+    id: 3,
+    href: "https://vercel.com/taiwosaidats-projects",
+    image: vercel,
+  },
+];
+
+export const contacts = [
+  {
+    id: 1,
+    href: "mailto:youremail@example.com",
+    image: email,
+  },
+  {
+    id: 2,
+    href: "https://wa.me/+2348145701901",
+    image: whatsapp,
+  },
+  // {
+  //   id: 3,
+  //   href: "https://github.com/TaiwoSaidat",
+  //   image: github,
+  // },
+  // {
+  //   id: 4,
+  //   href: "https://www.linkedin.com/in/taiwo-oyewale-5554791a6/",
+  //   image: ln,
+  // },
+  // {
+  //   id: 5,
+  //   href: "https://vercel.com/taiwosaidats-projects",
+  //   image: vercel,
+  // },
 ];
 

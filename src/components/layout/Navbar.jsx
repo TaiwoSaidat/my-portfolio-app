@@ -1,13 +1,10 @@
 import React from "react";
 
 function Navbar() {
-	return (
+  return (
     <nav className="w-full px-5 sm:px-10 py-5 shadow-xl backdrop-blur-lg fixed top-0 z-10">
       <div className="container flex flex-col lg:flex-row gap-5 justify-between w-full items-center max-w-5xl mx-auto">
-        <div className="flex flex-col gap-1" >
-          <h3 className="text-3xl text-[#a8dadc] font-bold">OYEWALE TAIWO</h3>
-          <span className="text-[#36c8cd] text-center">oyewaletaiwo1803@gmail.com</span>
-        </div>
+        <h3 className="text-3xl text-[#a8dadc] font-bold">OYEWALE TAIWO</h3>
         <ul className="flex gap-3 align-center p-1 flex-wrap">
           <li>
             <a
