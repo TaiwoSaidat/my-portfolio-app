@@ -83,7 +83,6 @@ export const apps = [
     content:
       "This is the landing page of a travel company's website. it was built using Next and typescript.",
   },
-
   {
     id: 2,
     href: "https://pixel-pioneers-technologies.vercel.app/",
@@ -144,11 +143,11 @@ export const links = [
     href: "https://www.linkedin.com/in/taiwo-oyewale-5554791a6/",
     image: ln,
   },
-  {
-    id: 3,
-    href: "https://vercel.com/taiwosaidats-projects",
-    image: vercel,
-  },
+  // {
+  //   id: 3,
+  //   href: "https://vercel.com/taiwosaidats-projects",
+  //   image: vercel,
+  // },
 ];
 
 export const contacts = [
