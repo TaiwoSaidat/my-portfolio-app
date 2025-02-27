@@ -12,7 +12,7 @@ function About() {
         <img
           src={taiwo}
           alt="taiwo"
-          className="w-96 h-96 bg-cover border rounded-3xl"
+          className="w-96 h-96 bg-cover"
         />
       </div>
       {/* text div */}
