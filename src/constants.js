@@ -91,7 +91,7 @@ export const apps = [
     alt: "Tech Start Up App",
     title: "Tech Start Up App",
     content:
-      "This is the landing page of a Software Developement business's website. it was built using Next and typescript.",
+      "This is the landing page of a Software Development business's website. it was built using Next and typescript.",
   },
   {
     id: 2,
