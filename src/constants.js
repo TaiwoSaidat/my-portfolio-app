@@ -6,14 +6,15 @@ import kiddies from "../src/assets/kiddiesAuto.png";
 import tribute from "../src/assets/tribute.png";
 import trombone from "../src/assets/trombone.png";
 import pixelTech from "../src/assets/pixelPioneersTech.png";
+import tsu from '../src/assets/TSU.png'
 import wanderlay from "../src/assets/wanderlay.png";
 import blog from "../src/assets/blogpost.png";
-import github from '../src/assets/github.svg';
+import job from "../src/assets/jobPosts.png";
+import github from "../src/assets/github.svg";
 import ln from "../src/assets/linkedin.svg";
 import email from "../src/assets//email.svg";
 import whatsapp from "../src/assets//whatsapp.svg";
 import vercel from "../src/assets//vercel.svg";
-
 
 export const sites = [
   {
@@ -24,25 +25,16 @@ export const sites = [
     alt: "Beauty Expert App",
     title: "Beauty Expert App",
     content:
-      "This is a react app that connect small business beauty technicians to customers. It was built with react.js and Tailwind. This project is the collaborative work of a full team, including designers, back end developers, other front end developers and project manager. It is still in progress.",
-  },
-  {
-    id: 2,
-    href: "https://quiz-application-plum.vercel.app/",
-    image: quizApp,
-    alt: "Quiz Application",
-    title: "Quiz Application",
-    content:
-      "This is a quiz application that shows questions and give a score at the end of the quiz. It is built using React JS, HTML and CSS.",
+      "This is a react app that connect small business beauty technicians to customers. It was built with react.js and Tailwind. This project is the collaborative work of a full team, including designers, back end developers, other front end developers and project manager. Features include sign in and sign up for experts and customers, display previous projects for experts, among others ",
   },
   {
     id: 3,
     href: "https://simple-blog-website-eta.vercel.app/",
     image: blog,
     alt: "Project 3",
-    title: "A Simple Blog Post",
+    title: "Post Craft App",
     content:
-      "This is an blog site built using React JS, Firebase, and Tailwind. You can add, delete, like, dislike and edit posts on this app.",
+      "This is an blog site displaying blog posts. It is built using React JS, Firebase, and Tailwind. Each post has a title, Date post was made, and a preview. Clicking on each post navigates to a full page showing details on the post. Features include add, delete, like, dislike and edit posts. App also displays the no of likes a post garners",
   },
   {
     id: 4,
@@ -51,16 +43,25 @@ export const sites = [
     alt: "Kiddies Auto Web",
     title: "Kiddies Auto Web",
     content:
-      "This is an ecommerce store built using React JS, HTML, Tailwind and CSS. It is still in progress",
+      "This is an ecommerce store built using React JS, HTML, Tailwind and CSS. It displays a list of available products with pricing, description and image. Fetaures include cart and checkout Pages ",
   },
   {
-    id: 5,
-    href: "https://login-signup-firebase-seven.vercel.app/",
-    image: fireBaseSignUp,
-    alt: "Signup / Login Application",
-    title: "Signup / Login Application",
+    id: 7,
+    href: "https://tech-jobs-listings-app.vercel.app/",
+    image: job,
+    alt: "Job Listings App",
+    title: "Job Listings App",
     content:
-      "This is a signup/login app using google firebase authentication for web applications. It is built using React JS, HTML, Tailwind and CSS.",
+      "This is a job listings app to display a list of job postings. It is built using Next and typescript. Each job has a title, company name, and a brief description. Clicking a job navigates to a detailed job page which displays the full details of the job. Other features include search for filtering, load more and a form where users can submit new job listings display. ",
+  },
+  {
+    id: 2,
+    href: "https://quiz-application-plum.vercel.app/",
+    image: quizApp,
+    alt: "Quiz Application",
+    title: "Quiz Application",
+    content:
+      "This is a quiz application that displays questions and give a score at the end of the quiz. It is built using React JS, HTML and CSS.",
   },
   {
     id: 6,
@@ -71,17 +72,26 @@ export const sites = [
     content:
       "This is a review app using react. It is built using React JS, HTML, Tailwind and CSS.",
   },
+  {
+    id: 5,
+    href: "https://login-signup-firebase-seven.vercel.app/",
+    image: fireBaseSignUp,
+    alt: "Signup / Login Application",
+    title: "Signup / Login Application",
+    content:
+      "This is a signup/login app using google firebase authentication for web applications. It is built using React JS, HTML, Tailwind and CSS.",
+  },
 ];
 
 export const apps = [
   {
-    id: 1,
-    href: "https://wanderlay-travel-app.vercel.app/",
-    image: wanderlay,
-    alt: "wanderlay app",
-    title: "Wanderlay Web Page",
+    id: 5,
+    href: "https://tech-start-up-app.vercel.app/",
+    image: tsu,
+    alt: "Tech Start Up App",
+    title: "Tech Start Up App",
     content:
-      "This is the landing page of a travel company's website. it was built using Next and typescript.",
+      "This is the landing page of a Software Developement business's website. it was built using Next and typescript.",
   },
   {
     id: 2,
@@ -109,6 +119,15 @@ export const apps = [
     content:
       "This is a products landing page for an shop that sells musical instruments built using html and css",
   },
+  {
+    id: 1,
+    href: "https://wanderlay-travel-app.vercel.app/",
+    image: wanderlay,
+    alt: "wanderlay app",
+    title: "Wanderlay Web Page",
+    content:
+      "This is the landing page of a travel company's website. it was built using Next and typescript.",
+  },
   // {
   //   id: 5,
   //   href: "https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/",
@@ -122,7 +141,7 @@ export const apps = [
 ];
 
 export const skills = [
-  "Next",
+  "NextJS",
   "React",
   "Javascript",
   "Typescript",
@@ -130,6 +149,8 @@ export const skills = [
   "Tailwind",
   "HTML",
   "CSS",
+  "Shadcn",
+  "Firebase",
 ];
 
 export const links = [
@@ -140,7 +161,7 @@ export const links = [
   },
   {
     id: 2,
-    href: "https://www.linkedin.com/in/taiwo-oyewale-5554791a6/",
+    href: "https://www.linkedin.com/in/taiwo-oyewale199/",
     image: ln,
   },
   // {
@@ -177,4 +198,3 @@ export const contacts = [
   //   image: vercel,
   // },
 ];
-

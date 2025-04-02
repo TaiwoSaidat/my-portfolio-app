@@ -9,11 +9,7 @@ function About() {
     >
       {/* image div */}
       <div className="flex-1 mb-6 ">
-        <img
-          src={taiwo}
-          alt="taiwo"
-          className="w-96 h-96 bg-cover"
-        />
+        <img src={taiwo} alt="taiwo" className="w-96 h-96 bg-cover" />
       </div>
       {/* text div */}
       <div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96">
@@ -23,18 +19,28 @@ function About() {
           </h2>
         </div>
         {/* <p className=" font-semibold"> I am</p> */}
-        <p>
-         1 am passionate about writing clean, efficient code and solving complex
-          problems by building technological solutions out of business needs. I
-          thrive on turning design concepts into interactive, beautiful
+        <p className="text-gray-700">
+          Front-end developer, specialising in crafting engaging web
+          applications that address various business challenges. Whether working
+          individually or part of a team, I am committed to delivering
+          high-quality and user friendly applications.
+          {/* I am passionate about writing clean, efficient code and solving
+          complex problems by building technological solutions out of business
+          needs. I thrive on turning design concepts into interactive, beautiful
           websites. I'm excited about the power of web technology to connect
           people and create meaningful experiences. I'm constantly learning and
-          looking for new ways to push the boundaries of what's possible..
+          looking for new ways to push the boundaries of what's possible.
           <span>
             I have over 1 year of experience working on web applications. I can
             fit into any phase of the software development life cycle and I can
             work both individually or collaboratively.
-          </span>
+          </span> */}
+        </p>
+        <p className="text-gray-700">
+          {" "}
+          I have over 1 year of experience working on web applications. I can
+          fit into any phase of the software development life cycle and I can
+          work both individually or collaboratively.
         </p>
       </div>
     </section>
