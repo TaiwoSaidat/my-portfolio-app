@@ -11,12 +11,12 @@ function Hero() {
       {/* heading text */}
       <div className="flex-1 flex flex-col justify-center items-center gap-5">
         <div>
-          <h4 className="text-center text-xl font-bold">Hi and welcome to</h4>
+          <h4 className="text-center text-xl font-bold text-gray-300">Hi and welcome to</h4>
           <h2 className="text-center text-[#a8dadc] text-5xl font-bold">
             My Portfolio Website
           </h2>
         </div>
-        <p className="text-center">i am a Front End Engineer...</p>
+        <p className="text-center text-gray-300">i am a Front End Engineer...</p>
       </div>
 
       {/* image */}

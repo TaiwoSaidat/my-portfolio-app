@@ -12,19 +12,29 @@ function About() {
         <img src={taiwo} alt="taiwo" className="w-96 h-96 bg-cover" />
       </div>
       {/* text div */}
-      <div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96">
+      <div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96 text-[#1d3557] font-semibold">
         <div>
-          <h2 className="text-center text-[#457b9d] text-5xl font-bold">
-            About Me
-          </h2>
+          <h2 className="text-center text-5xl font-bold">About Me</h2>
         </div>
         {/* <p className=" font-semibold"> I am</p> */}
-        <p className="text-gray-700">
+        <p className="">
+          Front-End Engineer skilled at building scalable, high-performance web
+          applications. Committed to delivering responsive, user-focused
+          solutions.
+        </p>
+        <p className="">
+          Proven ability to translate Figma designs into responsive,
+          production-ready applications, optimize performance, and integrate
+          secure APIs. Adept at collaborating in agile teams to deliver
+          user-focused solutions that improve engagement and streamline business
+          processes.
+        </p>
+        {/* <p className="">
           Front-end developer, specialising in crafting engaging web
           applications that address various business challenges. Whether working
           individually or part of a team, I am committed to delivering
           high-quality and user friendly applications.
-          {/* I am passionate about writing clean, efficient code and solving
+          I am passionate about writing clean, efficient code and solving
           complex problems by building technological solutions out of business
           needs. I thrive on turning design concepts into interactive, beautiful
           websites. I'm excited about the power of web technology to connect
@@ -34,14 +44,14 @@ function About() {
             I have over 1 year of experience working on web applications. I can
             fit into any phase of the software development life cycle and I can
             work both individually or collaboratively.
-          </span> */}
-        </p>
-        <p className="text-gray-700">
-          {" "}
-          I have over 1 year of experience working on web applications. I can
+          </span>
+        </p> */}
+        {/* <p className="">
+          
+          I have about 2 years of experience working on web applications. I can
           fit into any phase of the software development life cycle and I can
           work both individually or collaboratively.
-        </p>
+        </p> */}
       </div>
     </section>
   );

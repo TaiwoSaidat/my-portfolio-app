@@ -1,5 +1,7 @@
 import React from "react";
 import { contacts, links } from "../../constants";
+import resumeIcon from "../../assets/resume.jpeg";
+import resume from "../../assets/Oyewale_Taiwo_Resume.pdf";
 
 function Contact() {
   return (
@@ -7,12 +9,12 @@ function Contact() {
       {/* heading text */}
       <h2 className="text-5xl font-bold text-[#a8dadc] text-center my-5">
         Contact
-		  </h2>
-		  <br />
+      </h2>
+      <br />
+      {/* github, linkedin */}
       <h4 className="text-xl font-bold text-[#a8dadc] text-center">
         Check me out...
       </h4>
-
       <div className="flex gap-5 justify-center my-10">
         {links.map((link, index) => (
           <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#1d3557] shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
@@ -22,12 +24,10 @@ function Contact() {
           </div>
         ))}
       </div>
-
+      {/* whatsapp, gmail */}
       <h4 className="text-xl font-bold text-[#a8dadc] text-center">
         Link with me
       </h4>
-
-      {/* contacts */}
       <div className="flex gap-5 justify-center my-10">
         {contacts.map((contact, index) => (
           <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#1d3557] shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
@@ -41,64 +41,19 @@ function Contact() {
             </a>
           </div>
         ))}
+      </div>
 
-        {/* github */}
-        {/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg  ">
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className=" "
-            href="https://github.com/TaiwoSaidat"
-          >
-            <img src={github} alt="github link" />
+      {/* resume */}
+      <h4 className="text-xl font-bold text-[#a8dadc] text-center">
+        Download my Resume
+      </h4>
+      <div className="flex gap-5 justify-center my-10">
+        <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#1d3557]  shadow transition hover:shadow-xl hover:scale-[102%] p-4 border border-none rounded-lg  ">
+          <a rel="noreferrer" target="_blank" className="" href={resume}>
+            <img src={resumeIcon} alt="Download Resume" />
+            {/* <img src="#" alt="Download Resume" /> */}
           </a>
-        </div> */}
-
-        {/* linkedin */}
-        {/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg ">
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className=" "
-            href="https://www.linkedin.com/in/taiwo-oyewale-5554791a6/"
-          >
-            <img src={linkedin} alt="linkedin link" />
-          </a>
-        </div> */}
-
-        {/* vercel */}
-        {/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg " >
-					<a rel="noreferrer"
-						target="_blank"
-						className=" "
-						href="https://vercel.com/taiwosaidats-projects">
-						<img src={vercel} alt="vercel link"  />
-					</a>
-				</div> */}
-
-        {/* email */}
-        {/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg  ">
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className=" "
-            href="mailto:youremail@example.com "
-          >
-            <img src={email} alt="email link" />
-          </a>
-        </div> */}
-
-        {/* Whatsapp */}
-        {/* <div className="  w-24 h-24 flex items-center justify-center bg-[#a8dadc] hover:bg-[#457b9d] border border-none rounded-lg ">
-          <a
-            rel="noreferrer"
-            target="_blank"
-            className=" "
-            href="https://wa.me/+2348145701901"
-          >
-            <img src={whatsapp} alt="whatsapp link" />
-          </a>
-        </div> */}
+        </div>
       </div>
     </section>
   );

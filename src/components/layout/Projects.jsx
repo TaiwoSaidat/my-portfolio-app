@@ -1,7 +1,6 @@
 import React from "react";
 import { sites, apps } from "../../constants";
 
-
 function Projects() {
   return (
     <section
@@ -16,11 +15,10 @@ function Projects() {
       <h6 className="text-3xl text-[#a8dadc] font-bold text-center">
         Websites
       </h6>
-      
       {sites.map((site) => (
         <div
-          className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
-				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
+          className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] text-[#1d3557] hover:text-[#a8dadc] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full "
           key={site.id}
         >
           {/* image */}
@@ -34,15 +32,14 @@ function Projects() {
             </a>
           </div>
           {/* text */}
-          <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-            <h2 className="font-bold text-3xl text-center">
-              {/*  hover:text-black */}
+          <div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1 ">
+            <h2 className="font-bold text-3xl text-center ">
               <a className="hover:underline" href={site.href}>
-                {site.title}{" "}
+                {site.title}
               </a>
             </h2>
             <p>{site.content}</p>
-          </div>{" "}
+          </div>
         </div>
       ))}
       <br /> <hr /> <br />
@@ -51,8 +48,8 @@ function Projects() {
       </h6>
       {apps.map((app) => (
         <div
-          className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] flex flex-col justify-center items-center gap-5 lg:flex-row 
-				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full"
+          className="p-10 bg-[#a8dadc] hover:bg-[#1d3557] text-[#1d3557] hover:text-[#a8dadc] flex flex-col justify-center items-center gap-5 lg:flex-row 
+				max-w-5xl mx-auto shadow transition hover:shadow-xl hover:scale-[102%] w-full "
           key={app.id}
         >
           {/* image */}
@@ -70,16 +67,15 @@ function Projects() {
             <h2 className="font-bold text-3xl text-center">
               {/*  hover:text-black */}
               <a className="hover:underline" href={app.href}>
-                {app.title}{" "}
+                {app.title}
               </a>
             </h2>
             <p>{app.content}</p>
-          </div>{" "}
+          </div>
         </div>
       ))}
     </section>
   );
 }
-
 
 export default Projects;

@@ -6,7 +6,7 @@ import kiddies from "../src/assets/kiddiesAuto.png";
 import tribute from "../src/assets/tribute.png";
 import trombone from "../src/assets/trombone.png";
 import pixelTech from "../src/assets/pixelPioneersTech.png";
-import tsu from '../src/assets/TSU.png'
+import tsu from "../src/assets/TSU.png";
 import wanderlay from "../src/assets/wanderlay.png";
 import blog from "../src/assets/blogpost.png";
 import job from "../src/assets/jobPosts.png";
@@ -15,17 +15,28 @@ import ln from "../src/assets/linkedin.svg";
 import email from "../src/assets//email.svg";
 import whatsapp from "../src/assets//whatsapp.svg";
 import vercel from "../src/assets//vercel.svg";
+import finloop from "../src/assets/finloop.png";
+import goldies from "../src/assets/goldies.png";
 
+// projects
 export const sites = [
   {
-    id: 1,
-    href: "https://beautyxpert.netlify.app/",
-    // href="https://deploy-preview-41--beautyxpert.netlify.app/"
-    image: beauty,
-    alt: "Beauty Expert App",
-    title: "Beauty Expert App",
+    id: 8,
+    href: "https://goldies-frontend-v3.vercel.app/",
+    image: goldies,
+    alt: "Goldies Application",
+    title: "Goldies Application",
     content:
-      "This is a react app that connect small business beauty technicians to customers. It was built with react.js and Tailwind. This project is the collaborative work of a full team, including designers, back end developers, other front end developers and project manager. Features include sign in and sign up for experts and customers, display previous projects for experts, among others ",
+      "Collaborated in an ecommerce app suitable for sales of baked goods using Nextjs, Typescript, ShadCN, API Integration.",
+  },
+  {
+    id: 7,
+    href: "https://finloop-app.vercel.app/",
+    image: finloop,
+    alt: "Finloop Application",
+    title: "Finloop Application",
+    content:
+      "Developed an admin dashboard app suitable for management of lenders and their loans using Nextjs, Typescript, ShadCN, REST Api, async/axios.",
   },
   {
     id: 3,
@@ -35,6 +46,16 @@ export const sites = [
     title: "Post Craft App",
     content:
       "This is an blog site displaying blog posts. It is built using React JS, Firebase, and Tailwind. Each post has a title, Date post was made, and a preview. Clicking on each post navigates to a full page showing details on the post. Features include add, delete, like, dislike and edit posts. App also displays the no of likes a post garners",
+  },
+  {
+    id: 1,
+    href: "https://beautyxpert.netlify.app/",
+    // href="https://deploy-preview-41--beautyxpert.netlify.app/"
+    image: beauty,
+    alt: "Beauty Expert App",
+    title: "Beauty Expert App",
+    content:
+      "This is a react app that connect small business beauty technicians to customers. It was built with react.js and Tailwind. This project is the collaborative work of a full team, including designers, back end developers, other front end developers and project manager. Features include sign in and sign up for experts and customers, display previous projects for experts, among others ",
   },
   {
     id: 4,
@@ -54,15 +75,15 @@ export const sites = [
     content:
       "This is a job listings app to display a list of job postings. It is built using Next and typescript. Each job has a title, company name, and a brief description. Clicking a job navigates to a detailed job page which displays the full details of the job. Other features include search for filtering, load more and a form where users can submit new job listings display. ",
   },
-  {
-    id: 2,
-    href: "https://quiz-application-plum.vercel.app/",
-    image: quizApp,
-    alt: "Quiz Application",
-    title: "Quiz Application",
-    content:
-      "This is a quiz application that displays questions and give a score at the end of the quiz. It is built using React JS, HTML and CSS.",
-  },
+  // {
+  //   id: 5,
+  //   href: "https://login-signup-firebase-seven.vercel.app/",
+  //   image: fireBaseSignUp,
+  //   alt: "Signup / Login Application",
+  //   title: "Signup / Login Application",
+  //   content:
+  //     "This is a signup/login app using google firebase authentication for web applications. It is built using React JS, HTML, Tailwind and CSS.",
+  // },
   {
     id: 6,
     href: "https://feedback-application-zeta.vercel.app/",
@@ -73,52 +94,17 @@ export const sites = [
       "This is a review app using react. It is built using React JS, HTML, Tailwind and CSS.",
   },
   {
-    id: 5,
-    href: "https://login-signup-firebase-seven.vercel.app/",
-    image: fireBaseSignUp,
-    alt: "Signup / Login Application",
-    title: "Signup / Login Application",
+    id: 2,
+    href: "https://quiz-application-plum.vercel.app/",
+    image: quizApp,
+    alt: "Quiz Application",
+    title: "Quiz Application",
     content:
-      "This is a signup/login app using google firebase authentication for web applications. It is built using React JS, HTML, Tailwind and CSS.",
+      "This is a quiz application that displays questions and give a score at the end of the quiz. It is built using React JS, HTML and CSS.",
   },
 ];
 
 export const apps = [
-  {
-    id: 5,
-    href: "https://tech-start-up-app.vercel.app/",
-    image: tsu,
-    alt: "Tech Start Up App",
-    title: "Tech Start Up App",
-    content:
-      "This is the landing page of a Software Development business's website. it was built using Next and typescript.",
-  },
-  {
-    id: 2,
-    href: "https://pixel-pioneers-technologies.vercel.app/",
-    image: pixelTech,
-    alt: "pixel pioneers tech",
-    title: "Products E-Commerce Web App",
-    content:
-      "This is a multipage website that consumes api and displays products from the api including filteration throught categories built using html, css, fetch API and javascript",
-  },
-  {
-    id: 3,
-    href: "https://tribute-page-two-red.vercel.app/",
-    image: tribute,
-    alt: "Tribute Page",
-    title: "Tribute Page",
-    content: "This is a tribute built using html and css",
-  },
-  {
-    id: 4,
-    href: "https://products-landing-page-six.vercel.app/",
-    image: trombone,
-    alt: "Products Landing Page",
-    title: "Products Landing Page",
-    content:
-      "This is a products landing page for an shop that sells musical instruments built using html and css",
-  },
   {
     id: 1,
     href: "https://wanderlay-travel-app.vercel.app/",
@@ -128,6 +114,41 @@ export const apps = [
     content:
       "This is the landing page of a travel company's website. it was built using Next and typescript.",
   },
+  {
+    id: 5,
+    href: "https://tech-start-up-app.vercel.app/",
+    image: tsu,
+    alt: "Tech Start Up App",
+    title: "Tech Start Up App",
+    content:
+      "This is the landing page of a Software Development business's website. it was built using Next and typescript.",
+  },
+  // {
+  //   id: 2,
+  //   href: "https://pixel-pioneers-technologies.vercel.app/",
+  //   image: pixelTech,
+  //   alt: "pixel pioneers tech",
+  //   title: "Products E-Commerce Web App",
+  //   content:
+  //     "This is a multipage website that consumes api and displays products from the api including filteration throught categories built using html, css, fetch API and javascript",
+  // },
+  // {
+  //   id: 3,
+  //   href: "https://tribute-page-two-red.vercel.app/",
+  //   image: tribute,
+  //   alt: "Tribute Page",
+  //   title: "Tribute Page",
+  //   content: "This is a tribute built using html and css",
+  // },
+  // {
+  //   id: 4,
+  //   href: "https://products-landing-page-six.vercel.app/",
+  //   image: trombone,
+  //   alt: "Products Landing Page",
+  //   title: "Products Landing Page",
+  //   content:
+  //     "This is a products landing page for an shop that sells musical instruments built using html and css",
+  // },
   // {
   //   id: 5,
   //   href: "https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/",
@@ -170,7 +191,7 @@ export const links = [
   //   image: vercel,
   // },
 ];
-
+// contact
 export const contacts = [
   {
     id: 1,
