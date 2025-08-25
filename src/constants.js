@@ -50,7 +50,6 @@ export const sites = [
   {
     id: 1,
     href: "https://beautyxpert.netlify.app/",
-    // href="https://deploy-preview-41--beautyxpert.netlify.app/"
     image: beauty,
     alt: "Beauty Expert App",
     title: "Beauty Expert App",
@@ -75,6 +74,7 @@ export const sites = [
     content:
       "This is a job listings app to display a list of job postings. It is built using Next and typescript. Each job has a title, company name, and a brief description. Clicking a job navigates to a detailed job page which displays the full details of the job. Other features include search for filtering, load more and a form where users can submit new job listings display. ",
   },
+
   // {
   //   id: 5,
   //   href: "https://login-signup-firebase-seven.vercel.app/",
@@ -101,6 +101,24 @@ export const sites = [
     title: "Quiz Application",
     content:
       "This is a quiz application that displays questions and give a score at the end of the quiz. It is built using React JS, HTML and CSS.",
+  },
+  {
+    id: 1,
+    href: "https://wanderlay-travel-app.vercel.app/",
+    image: wanderlay,
+    alt: "wanderlay app",
+    title: "Wanderlay Web Page",
+    content:
+      "This is the landing page of a travel company's website. it was built using Next and typescript.",
+  },
+  {
+    id: 5,
+    href: "https://tech-start-up-app.vercel.app/",
+    image: tsu,
+    alt: "Tech Start Up App",
+    title: "Tech Start Up App",
+    content:
+      "This is the landing page of a Software Development business's website. it was built using Next and typescript.",
   },
 ];
 
@@ -167,13 +185,17 @@ export const skills = [
   "Javascript",
   "Typescript",
   "REST API",
-  "Tailwind",
-  "HTML",
-  "CSS",
-  "Shadcn",
   "Firebase",
+  "Postman",
+  "Redux",
+  "SCSS",
+  "Tailwind",
+  "CSS",
+  "HTML",
+  "Javascript",
+  "Shadcn",
 ];
-
+// contacts
 export const links = [
   {
     id: 1,
@@ -185,6 +207,17 @@ export const links = [
     href: "https://www.linkedin.com/in/taiwo-oyewale199/",
     image: ln,
   },
+  {
+    id: 3,
+    href: "mailto:youremail@example.com",
+    image: email,
+  },
+  {
+    id: 4,
+    href: "https://wa.me/+2348145701901",
+    image: whatsapp,
+  },
+
   // {
   //   id: 3,
   //   href: "https://vercel.com/taiwosaidats-projects",
@@ -218,4 +251,11 @@ export const contacts = [
   //   href: "https://vercel.com/taiwosaidats-projects",
   //   image: vercel,
   // },
+];
+
+export const navbarLinks = [
+  { id: 1, href: "#about", title: "About" },
+  { id: 2, href: "#skills", title: "Skills" },
+  { id: 3, href: "#projects", title: "Projects" },
+  { id: 4, href: "#contact", title: "Contact" },
 ];

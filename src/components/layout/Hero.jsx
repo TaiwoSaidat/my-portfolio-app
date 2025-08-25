@@ -5,26 +5,31 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="px-10 w-full flex gap-12 flex-col lg:flex-row justify-center items-center 
-		align-center mt-40 mb-16 lg:mt-10 max-w-5xl mx-auto lg:gap-0 h-[100vh]"
+      className=" w-full flex flex-col md:flex-row justify-between items-center 
+    		align-center max-w-5xl mx-auto gap-4 md:pt-24  "
     >
       {/* heading text */}
-      <div className="flex-1 flex flex-col justify-center items-center gap-5">
-        <div>
-          <h4 className="text-center text-xl font-bold text-gray-300">Hi and welcome to</h4>
-          <h2 className="text-center text-[#a8dadc] text-5xl font-bold">
-            My Portfolio Website
-          </h2>
-        </div>
-        <p className="text-center text-gray-300">i am a Front End Engineer...</p>
+      <div className="mt-20  flex flex-col justify-center items-center gap-2">
+        {/* <div> */}
+        <h4 className="text-center text-xl font-bold text-gray">
+          Hi and welcome to
+        </h4>
+        <h2 className="text-center text-secondary text-4xl font-bold ">
+          My Portfolio Website
+        </h2>
+        {/* </div> */}
+        <p className="text-center text-gray font-semibold animate-pulse">
+          I am a Frontend Engineer...
+        </p>
       </div>
 
       {/* image */}
-      <div className="flex-1 ">
+      <div className=" ">
         <img
           src={code}
           alt="code.svg"
-          className="w-full h-36 md:h-48 lg:h-96 bg-cover "
+          className="w-48 h-48 md:w-64 md:h-64 rounded-lg bg-cover"
+          // className="w-full h-36 md:h-48 lg:h-96  "
         />
       </div>
     </section>

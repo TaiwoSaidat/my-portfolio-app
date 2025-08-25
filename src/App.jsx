@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from "react";
 import Navbar from "./components/layout/Navbar";
 import About from "./components/layout/About";
 import Skills from "./components/layout/Skills";
@@ -8,15 +8,17 @@ import Footer from "./components/layout/Footer";
 import Hero from "./components/layout/Hero";
 
 export default function App() {
-	return (
-		<>
-			<Navbar />
-			<Hero />
-			<About />
-			<Skills />
-			<Projects />
-			<Contact />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <div className=" space-y-12 ">
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </>
+  );
 }

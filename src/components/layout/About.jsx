@@ -5,20 +5,24 @@ function About() {
   return (
     <section
       id="about"
-      className="px-10 w-full flex flex-col lg:flex-row py-20 align-center items-center justify-center bg-[#a8dadc] max-w-5xl mx-auto"
+      className="p-4 md:py-0 w-full flex flex-col lg:flex-row gap-6 items-center justify-center bg-accent max-w-5xl mx-auto rounded-lg"
     >
       {/* image div */}
-      <div className="flex-1 mb-6 ">
-        <img src={taiwo} alt="taiwo" className="w-96 h-96 bg-cover" />
+      <div className="">
+        <img
+          src={taiwo}
+          alt="taiwo"
+          className=" w-48 h-48 md:w-56 md:h-56 "
+        />
       </div>
       {/* text div */}
-      <div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96 text-[#1d3557] font-semibold">
+      <div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96 text-primary font-semibold">
         <div>
           <h2 className="text-center text-5xl font-bold">About Me</h2>
         </div>
         {/* <p className=" font-semibold"> I am</p> */}
         <p className="">
-          Front-End Engineer skilled at building scalable, high-performance web
+          Software Engineer skilled at building scalable, high-performance web
           applications. Committed to delivering responsive, user-focused
           solutions.
         </p>
