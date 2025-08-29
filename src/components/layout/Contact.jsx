@@ -5,7 +5,10 @@ import resume from "../../assets/Oyewale_Taiwo_Resume.pdf";
 
 function Contact() {
   return (
-    <section id="contact" className=" align-center max-w-5xl mx-auto space-y-8 ">
+    <section
+      id="contact"
+      className=" align-center max-w-5xl mx-auto space-y-8 "
+    >
       {/* heading text */}
       <h2 className="text-5xl font-bold text-secondary text-center ">
         Links, Contacts and Resume
@@ -17,38 +20,19 @@ function Contact() {
         </h4>
         <div className="flex gap-5 justify-center my-6">
           {links.map((link, index) => (
-            <div className="  w-24 h-24 flex items-center justify-center bg-secondary hover:bg-primary shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
+            <div className=" p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
               <a
                 rel="noreferrer"
                 target="_blank"
                 className=" "
                 href={link.href}
               >
-                <img src={link.image} alt="github link" />
+                <img src={link.image} alt="links" className="w-10 h-10 " />
               </a>
             </div>
           ))}
         </div>
       </div>
-
-      {/* whatsapp, gmail */}
-      {/* <h4 className="text-xl font-bold text-secondary text-center">
-        Link with me
-      </h4>
-      <div className="flex gap-5 justify-center my-10">
-        {contacts.map((contact, index) => (
-          <div className="  w-24 h-24 flex items-center justify-center bg-secondary hover:bg-primary shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              className=" "
-              href={contact.href}
-            >
-              <img src={contact.image} alt="github link" />
-            </a>
-          </div>
-        ))}
-      </div> */}
 
       {/* resume */}
       <div className="space-y-4">
@@ -56,9 +40,9 @@ function Contact() {
           Download my Resume
         </h4>
         <div className="flex gap-5 justify-center my-6">
-          <div className="  w-24 h-24 flex items-center justify-center bg-secondary hover:bg-primary  shadow transition hover:shadow-xl hover:scale-[102%] p-4 border border-none rounded-lg  ">
+          <div className="  p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary  shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
             <a rel="noreferrer" target="_blank" className="" href={resume}>
-              <img src={resumeIcon} alt="Download Resume" />
+              <img src={resumeIcon} alt="Download Resume" className="w-10 h-10 " />
             </a>
           </div>
         </div>
