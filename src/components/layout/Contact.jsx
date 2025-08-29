@@ -20,7 +20,7 @@ function Contact() {
         </h4>
         <div className="flex gap-5 justify-center my-6">
           {links.map((link, index) => (
-            <div className=" p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
+            <div className=" p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-full  ">
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -40,7 +40,7 @@ function Contact() {
           Download my Resume
         </h4>
         <div className="flex gap-5 justify-center my-6">
-          <div className="  p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary  shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-lg  ">
+          <div className="  p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary  shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-full  ">
             <a rel="noreferrer" target="_blank" className="" href={resume}>
               <img src={resumeIcon} alt="Download Resume" className="w-10 h-10 " />
             </a>
