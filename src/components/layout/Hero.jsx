@@ -28,7 +28,7 @@ function Hero() {
         <img
           src={code}
           alt="code.svg"
-          className="w-48 h-48 md:w-64 md:h-64 rounded-lg bg-cover"
+          className="w-auto h-48 md:h-72 rounded-lg bg-cover"
           // className="w-full h-36 md:h-48 lg:h-96  "
         />
       </div>
