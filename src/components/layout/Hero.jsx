@@ -6,7 +6,7 @@ function Hero() {
     <section
       id="hero"
       className=" w-full flex flex-col md:flex-row justify-between items-center 
-    		align-center max-w-5xl mx-auto gap-4 md:pt-24  "
+    		align-center max-w-5xl mx-auto gap-4 md:pt-24 px-4 lg:px-0 "
     >
       {/* heading text */}
       <div className="mt-20  flex flex-col justify-center items-center gap-2">

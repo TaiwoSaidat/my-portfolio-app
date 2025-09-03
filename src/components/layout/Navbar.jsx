@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="w-full py-5 shadow-xl backdrop-blur-lg fixed top-0 z-10">
       <div className="container flex flex-col lg:flex-row gap-5 justify-between w-full items-center max-w-5xl mx-auto">
-        <h3 className="text-3xl text-secondary font-bold">OYEWALE TAIWO</h3>
+        <h3 className="text-3xl text-secondary font-bold">TAIWO OYEWALE</h3>
         <ul className="flex gap-3 align-center p-1 flex-wrap text-secondary">
           <li>
             {navbarLinks.map((link) => (

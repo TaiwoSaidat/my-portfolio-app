@@ -12,6 +12,7 @@ import blog from "../src/assets/blogpost.png";
 import job from "../src/assets/jobPosts.png";
 import github from "../src/assets/github.svg";
 import ln from "../src/assets/linkedin.svg";
+import md from "../src/assets/mediums.png";
 import email from "../src/assets//email.svg";
 import whatsapp from "../src/assets//whatsapp.svg";
 import vercel from "../src/assets//vercel.svg";
@@ -23,6 +24,7 @@ export const sites = [
   {
     id: 8,
     href: "https://goldies-frontend-v3.vercel.app/",
+    code: "",
     image: goldies,
     alt: "Goldies Application",
     title: "Goldies Application",
@@ -195,7 +197,7 @@ export const skills = [
   "Javascript",
   "Shadcn",
 ];
-// contacts
+// actual contacts
 export const links = [
   {
     id: 1,
@@ -209,20 +211,19 @@ export const links = [
   },
   {
     id: 3,
+    href: "https://medium.com/@oyewaletaiwo1803",
+    image: md,
+  },
+  {
+    id: 4,
     href: "mailto:youremail@example.com",
     image: email,
   },
   {
-    id: 4,
+    id: 5,
     href: "https://wa.me/+2348145701901",
     image: whatsapp,
   },
-
-  // {
-  //   id: 3,
-  //   href: "https://vercel.com/taiwosaidats-projects",
-  //   image: vercel,
-  // },
 ];
 // contact
 export const contacts = [

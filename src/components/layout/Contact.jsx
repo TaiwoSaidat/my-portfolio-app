@@ -1,7 +1,7 @@
 import React from "react";
 import { contacts, links } from "../../constants";
 import resumeIcon from "../../assets/resume.jpeg";
-import resume from "../../assets/Oyewale_Taiwo_Resume.pdf";
+import resume from "../../assets/Taiwo_Oyewale_Resume_Frontend_Engineer.pdf";
 
 function Contact() {
   return (
@@ -27,7 +27,11 @@ function Contact() {
                 className=" "
                 href={link.href}
               >
-                <img src={link.image} alt="links" className="w-10 h-10 " />
+                <img
+                  src={link.image}
+                  alt="links"
+                  className="w-10 h-6 md:h-10 "
+                />
               </a>
             </div>
           ))}
@@ -42,7 +46,11 @@ function Contact() {
         <div className="flex gap-5 justify-center my-6">
           <div className="  p-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center bg-secondary hover:bg-primary  shadow transition hover:shadow-xl hover:scale-[102%] border border-none rounded-full  ">
             <a rel="noreferrer" target="_blank" className="" href={resume}>
-              <img src={resumeIcon} alt="Download Resume" className="w-10 h-10 " />
+              <img
+                src={resumeIcon}
+                alt="Download Resume"
+                className="w-10 h-6 md:h-10 "
+              />
             </a>
           </div>
         </div>

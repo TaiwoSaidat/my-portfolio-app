@@ -1,19 +1,15 @@
 import React from "react";
-import taiwo from "../../assets/taiwo4.png";
+import taiwo from "../../assets/taiwo.png";
 
 function About() {
   return (
     <section
       id="about"
-      className="p-4 md:py-0 w-full flex flex-col lg:flex-row gap-6 items-center justify-center bg-accent max-w-5xl mx-auto rounded-lg"
+      className="p-4 md:py-0 w-full flex flex-col lg:flex-row gap-6 items-center justify-center bg-accent max-w-5xl mx-auto lg:rounded-lg"
     >
       {/* image div */}
       <div className="">
-        <img
-          src={taiwo}
-          alt="taiwo"
-          className=" w-48 h-48 md:w-56 md:h-56 "
-        />
+        <img src={taiwo} alt="taiwo" className=" w-48 h-48 md:w-56 md:h-56 " />
       </div>
       {/* text div */}
       <div className="flex-1 flex flex-col justify-center items-center gap-5 px-6 h-96 text-primary font-semibold">
@@ -21,7 +17,17 @@ function About() {
           <h2 className="text-center text-5xl font-bold">About Me</h2>
         </div>
         {/* <p className=" font-semibold"> I am</p> */}
-        <p className="">
+        <p>
+          Results-driven with hands-on experience in the software development
+          lifecycle, specializing in the design and implementation of
+          performant, scalable, and user-centric web applications. Proficient in
+          the modern web stack, including React, Next.js, and Typescript.
+          Demonstrated expertise in responsive UI development, state management,
+          and performance optimization. Proven ability to deliver accessible,
+          mobile-first interfaces and drive measurable business impact within
+          Agile/Scrum environments. 
+        </p>
+        {/* <p className="">
           Software Engineer skilled at building scalable, high-performance web
           applications. Committed to delivering responsive, user-focused
           solutions.
@@ -32,7 +38,7 @@ function About() {
           secure APIs. Adept at collaborating in agile teams to deliver
           user-focused solutions that improve engagement and streamline business
           processes.
-        </p>
+        </p> */}
         {/* <p className="">
           Front-end developer, specialising in crafting engaging web
           applications that address various business challenges. Whether working
