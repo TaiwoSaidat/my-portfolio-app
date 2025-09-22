@@ -216,7 +216,7 @@ export const links = [
   },
   {
     id: 4,
-    href: "mailto:youremail@example.com",
+    href: "mailto:oyewaletaiwo1803@gmail.com",
     image: email,
   },
   {
